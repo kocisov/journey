@@ -4,7 +4,7 @@
   "description": "Create new Project (with additional commands) and open it in Atom",
   "main": "bin/journey",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/Kocisov/journey/issues"
   },
-  "homepage": "https://github.com/Kocisov/journey#readme"
+  "homepage": "https://github.com/Kocisov/journey#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^0.65.0",
+    "rollup-plugin-typescript2": "^0.17.0",
+    "typescript": "^3.1.1"
+  }
 }

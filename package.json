@@ -1,0 +1,27 @@
+{
+  "name": "journey",
+  "version": "1.0.0",
+  "description": "Create new Project (with additional commands) and open it in Atom",
+  "main": "bin/journey",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kocisov/journey.git"
+  },
+  "keywords": [
+    "Journey",
+    "Atom",
+    "Open",
+    "Command",
+    "Project",
+    "Create"
+  ],
+  "author": "kocisov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kocisov/journey/issues"
+  },
+  "homepage": "https://github.com/Kocisov/journey#readme"
+}

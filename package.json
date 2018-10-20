@@ -29,6 +29,7 @@
   "homepage": "https://github.com/Kocisov/journey#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^10.12.0",
     "rollup": "^0.65.0",
     "rollup-plugin-typescript2": "^0.17.0",
     "typescript": "^3.1.1"

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Create new Project (with additional commands) and open it in Atom",
   "main": "bin/journey",
+  "bin": {
+    "journey": "bin/journey"
+  },
   "scripts": {
     "build": "rollup -c"
   },

@@ -1,1 +1,10 @@
 #!/usr/bin/env node
+
+const journey = require('./journey.bundle')
+
+if (process.argv[2]) {
+  const projectName = process.argv[2]
+  const commands = JSON.parse(process.argv[3])
+
+  journey(projectName, commands && commands)
+}

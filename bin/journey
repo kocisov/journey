@@ -2,11 +2,9 @@
 
 const journey = require('./journey.bundle')
 
-console.log(process.argv)
-
 if (process.argv[2]) {
   const projectName = process.argv[2]
-  const commands = process.argv[3]
+  const commands = JSON.parse(process.argv[3])
 
   journey(projectName, commands && commands)
 }
